@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ClientMobile</string>
+
+    <!-- string.xml -->
+    <string-array name="dropdown_items">
+        <item>Tiket Biasa</item>
+        <item>Tiket VIP</item>
+    </string-array>
+
+</resources>

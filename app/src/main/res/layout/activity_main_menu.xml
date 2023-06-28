@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainMenuActivity">
+
+    <ImageView
+        android:id="@+id/ImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/konser" />
+
+    <Button
+        android:id="@+id/ListKonserButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="List Konser"
+        android:layout_below="@id/ImageView"/>
+
+    <Button
+        android:id="@+id/PesanButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pesan Tiket"
+        android:layout_below="@id/ListKonserButton" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PesanButton"
+        app:srcCompat="@drawable/konser2" />
+
+</RelativeLayout>
